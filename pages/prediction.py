@@ -15,7 +15,7 @@ st.set_page_config(
 # AUTH GUARD
 
 if not st.session_state.get("logged_in"):
-    st.switch_page("C:\\Users\\adity\\Desktop\\NIELIT\\pages\\0_Login.py")
+    st.switch_page("pages/0_Login.py")
 
 # CSS 
 # ======================
