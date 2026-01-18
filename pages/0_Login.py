@@ -75,7 +75,7 @@ with st.sidebar:
         st.switch_page("app.py")
 
     if st.button("🔮 Prediction"):
-        st.switch_page("pages/Prediction.py")
+        st.switch_page("pages/prediction.py")
 
     if st.button("📊 Analytics"):
         st.switch_page("pages/Analytics.py")
